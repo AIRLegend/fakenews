@@ -422,3 +422,7 @@ dmypy.json
 ### Ignored folder
 */ignored/*
 
+### Data folder
+data/*
+
+
