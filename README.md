@@ -5,4 +5,6 @@ This repository is focused on finding fake news using deep learning
   - GoogleNews Word2Vec weights
   - FakeNews Corpus dataset
 * **notebooks**: Notebooks for prototyping
+* **src**: Code with utils
+  * **data**: Code to generate datasets / process data
 

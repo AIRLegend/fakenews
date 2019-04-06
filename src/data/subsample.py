@@ -21,8 +21,8 @@ def sample_file(input_data, output_data, percent = 0.2):
     :param (string) output_data: Path al fichero de escritura
     :param (float) percent: Porcentaje del fichero a analizar. Número entre (0, 1]
     """
-    with open(data) as file:
-        with open(output, 'w+') as out:
+    with open(input_data) as file:
+        with open(output_data, 'w+') as out:
             header = True
             reader = csv.reader(file)
             writer = csv.writer(out)
