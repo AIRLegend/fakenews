@@ -45,10 +45,17 @@ def main():
         sys.stderr.write("Error. Argumentos necesarios: <input_file>"+
                 " <output_file>")
         return
+
+    types = ['clickbait', 'bias']
+    if len(sys.argv) == 4:
+        types = sys.argv[3].split(',')
+
     inp_file = sys.argv[1]
     out_file = sys.argv[2]
     print("Processing...")
-    extract(input_data =inp_file, output_data = out_file)
+    print("Extracting news of type:")
+    print(types)
+    extract(input_data =inp_file, output_data = out_file, types = types)
 
 if __name__ == '__main__':
     main()
