@@ -17,9 +17,9 @@ no social network analysis neither images.
             (Not uploaded to GH due to filesize restrictions).
   - GoogleNews-vectors-negative300.bin.gz
   - Other_datasets
-        - GettingRealAboutFake/
-        - fake-news-detection/
-        - real_or_fake.csv
+    - GettingRealAboutFake/
+    - fake-news-detection/
+    - real_or_fake.csv
   - FakeNewsCorpus.csv
 * **notebooks**: Notebooks for prototyping
 * **src**: Code with utils
@@ -37,3 +37,5 @@ no social network analysis neither images.
   classes.
 * *Test_Colab_Categorical.ipynb:* Testing the previously trained categorical models.
 * *Test_Colab_Binary.ipynb:* Testing the previously trained binary models.
+* data_analysis/*Data_analysis-FNC.ipynb*: EDA of the Fake News Corpus.
+
