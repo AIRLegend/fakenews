@@ -13,9 +13,14 @@ no social network analysis neither images.
 3. Fake News Detection: https://www.kaggle.com/jruvika/fake-news-detection
 
 ### Folder structure
-* **data**: Necessary data for scripts to work
-  - GoogleNews Word2Vec weights
-  - FakeNews Corpus dataset
+* **data**: This directory must be created with the necessary data for scripts to work.
+            (Not uploaded to GH due to filesize restrictions).
+  - GoogleNews-vectors-negative300.bin.gz
+  - Other_datasets
+        - GettingRealAboutFake/
+        - fake-news-detection/
+        - real_or_fake.csv
+  - FakeNewsCorpus.csv
 * **notebooks**: Notebooks for prototyping
 * **src**: Code with utils
   * **data**: Code to generate datasets / process data
