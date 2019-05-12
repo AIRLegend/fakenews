@@ -1,4 +1,4 @@
-#Fake news detection
+# Fake news detection
 ------
 
 This repository is focused on finding fake news using deep learning
@@ -22,14 +22,13 @@ no social network analysis neither images.
 
 
 ### Notebook explanation
-  technique.
-* FakeNewsCorpus.ipynb: Cleaning and preprocessing the dataset 'Fake News Corpus'.
-* GettingRealAboutFake.ipynb: Cleaning and preprocessing the dataset 'Getting Real
+* *FakeNewsCorpus.ipynb:* Cleaning and preprocessing the dataset 'Fake News Corpus'.
+* *GettingRealAboutFake.ipynb:* Cleaning and preprocessing the dataset 'Getting Real
   About Fake News' from Kaggle.
-* Processing_test_dataset.ipynb: Cleaning and preprocessing the dataset 'True or Fake' from Kaggle.
-* BayesianOpt.pynb: Obtaining model hyperparameters using Bayesian Optimization
-* Train-Colab-Categorical.ipynb: Train DNN to categorize 4 types of news.
-* Train_Colab_Binary.ipynb: Train DNN to categorize only **True** or **Fake**
+* *Processing_test_dataset.ipynb:* Cleaning and preprocessing the dataset 'True or Fake' from Kaggle.
+* *BayesianOpt.pynb:* Obtaining model hyperparameters using Bayesian Optimization
+* *Train-Colab-Categorical.ipynb:* Train DNN to categorize 4 types of news.
+* *Train_Colab_Binary.ipynb:* Train DNN to categorize only **True** or **Fake**
   classes.
-* Test_Colab_Categorical.ipynb: Testing the previously trained categorical models.
-* Test_Colab_Binary.ipynb: Testing the previously trained binary models.
+* *Test_Colab_Categorical.ipynb:* Testing the previously trained categorical models.
+* *Test_Colab_Binary.ipynb:* Testing the previously trained binary models.
