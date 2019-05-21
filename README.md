@@ -24,7 +24,7 @@ no social network analysis neither images.
 * **notebooks**: Notebooks for prototyping
 * **src**: Code with utils
   * **data**: Code to generate datasets / process data
-
+  * **bert_class**: Fine-tuned classifier built over  Google's BERT to detect fake/true news.
 
 ### Notebook explanation
 * *FakeNewsCorpus.ipynb:* Cleaning and preprocessing the dataset 'Fake News Corpus'.
