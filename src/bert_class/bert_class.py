@@ -282,8 +282,8 @@ class BertClassifier(object):
         # TODO: REMOVE type column
 
         tokenizer = self.__create_tokenizer_from_hub_module()
-        # label_list = test_other[LABEL_COLUMN].unique().tolist()
-        label_list = [0, 1]
+        label_list = test_other[LABEL_COLUMN].unique().tolist()
+        #label_list = [0, 1]
         test_features = self.__create_features(
             df, label_list,
             self.max_seq_len, tokenizer, 'text', 'type'
