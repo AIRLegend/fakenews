@@ -11,6 +11,7 @@ no social network analysis neither images.
 1. Fake News Corpus: https://github.com/several27/FakeNewsCorpus
 2. Getting Real About Fake News: https://www.kaggle.com/mrisdal/fake-news
 3. Fake News Detection: https://www.kaggle.com/jruvika/fake-news-detection
+4. News Dataset from TI-CNN: https://arxiv.org/abs/1806.00749
 
 ### Folder structure
 * **data**: This directory must be created with the necessary data for scripts to work.
@@ -38,4 +39,7 @@ no social network analysis neither images.
 * *Test_Colab_Categorical.ipynb:* Testing the previously trained categorical models.
 * *Test_Colab_Binary.ipynb:* Testing the previously trained binary models.
 * data_analysis/*Data_analysis-FNC.ipynb*: EDA of the Fake News Corpus.
+* data_analysis/*Data_analysis-TI-CNN.ipynb*: EDA of the TI-CNN Dataset
+* data_analysis/*Data_analysis-Getting-Real.ipynb*: EDA of the Getting Real About
+  fake news Dataset
 
